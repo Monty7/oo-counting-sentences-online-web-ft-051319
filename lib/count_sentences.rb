@@ -37,6 +37,6 @@ class String
       end
       i = i + 1
     end
-    i
+    results
   end
 end
