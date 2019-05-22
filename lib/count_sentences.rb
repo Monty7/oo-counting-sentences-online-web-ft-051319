@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    sentences_array = self.split(/\?|\.|\!|\!!/)
+    sentences_array = self.split(/\?|\.|\!|\!!/).size
     #binding.pry
     i = 0
     while i < sentences_array.size
