@@ -31,7 +31,7 @@ class String
     binding.pry
     i = 0
     while i < sentences_array
-      if sentences_array[i] != nil
+      if sentences_array[i].empty?
       i = i + 1
     end
     i
