@@ -31,7 +31,7 @@ class String
     #binding.pry
     i = 0
     results = 0
-    while i < sentences_array.size
+    while i < sentences_array.length
       if !sentences_array[i].empty?
         results = results + 1
       end
