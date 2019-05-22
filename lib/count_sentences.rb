@@ -30,7 +30,7 @@ class String
     sentences_array = self.split(/\?|\.|\!|\!!/).size
     #binding.pry
     i = 0
-    while i < sentences_array.length
+    while i < sentences_array
     
       i = i + 1
     end
