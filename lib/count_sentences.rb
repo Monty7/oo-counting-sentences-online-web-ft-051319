@@ -32,7 +32,8 @@ class String
     i = 0
     while i < sentences_array
       if !sentences_array[i].empty?
-      i = i + 1
+        i = i + 1
+      end
     end
     i
   end
